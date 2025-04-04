@@ -5,11 +5,11 @@ Welcome! This course is split into 8 modules, each building on the last.
 ## How to Use:
 1. Open terminal and navigate to this folder
 2. Create a virtual environment:
-   `python3.12 -m venv venv`
+   `python3 -m venv venv`
 3. Activate it:
    `source venv/bin/activate`
 4. Run a file:
-   `python3 01_variables_and_types.py`
+   `python3 modules/01_variables_and_types.py`
 
 ---
 
