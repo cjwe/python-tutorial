@@ -26,6 +26,11 @@ def text(x):
 def square(x):
     return x * x
 
+def what_is_the_square(x):
+    print()
+    print(f"{text(x)} {square(x)}.")
+    print()
+
 # Method 1
 print(text(4), square(4), ".")
 print()
@@ -37,16 +42,46 @@ print()
 # Method 3
 print(f"The square of 4 is {square(4)}.")
 
+# Method 4
+what_is_the_square(5)
+
 print()
 print()
 print()
 
 # 2.
 
-pastas = ["macaroni","bowtie","spaghetti"]
+pastas = ["macaroni", "bowtie", "spaghetti"]
 
 def eatPasta(pasta):
     return f"{pasta}"    
 
 print(eatPasta(pastas))
 
+def count_elements(list_of_stuff):
+    count = 0
+    for stuff in list_of_stuff:
+        # count = count + 1 # Another option
+        count += 1
+    
+    return count
+
+# Method 1
+print()
+print(count_elements(pastas))
+print()
+
+# Method 2
+print(len(pastas))
+print()
+
+
+# 3.
+
+def last_item(lista):
+    # return lista[len(lista) - 1] # Another way
+    return lista[-1]
+
+print()
+print(last_item(pastas))
+print()
