@@ -13,6 +13,7 @@ class Animal:
 
 class Dog(Animal):
     def speak(self):
+        super().speak()
         print(f"{self.name} barks!")
 
 class Cat(Animal):
@@ -40,8 +41,6 @@ class Person:
 
     def introduce(self):
         intro = f"Hi, I'm {self.name}, and I'm {self.age} years old."
-        if hasattr(self, 'grade'):
-            intro += f" I'm in the {self.grade}."
         print(intro)
 
 person1 = Person("Christa", 30)
@@ -53,6 +52,11 @@ class Student(Person):
     def __init__(self, name, age, grade):
         super().__init__(name, age)
         self.grade = grade
+    
+    def introduce(self):
+        super().introduce()
+        intro = f"I'm in the {self.grade}."
+        print(intro)
 
 student1 = Student("Creestah", 30, "12th Grade")
 student1.introduce()
@@ -63,3 +67,5 @@ student2 = Student("Vladino", 37, "12th Grade")
 student2.introduce()
 print()
 print()
+
+# Grade 10/10
