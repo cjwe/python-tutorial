@@ -2,10 +2,10 @@
 
 age = 20
 
-if age >= 10:
-    print("You're a teenager.")
-elif age >= 18:
+if age >= 18:
     print("You're an adult.")
+elif age >= 10:
+    print("You're a teenager.")
 else:
     print("You're a minor.")
 print()
@@ -30,7 +30,6 @@ print()
 # 2. Write a while loop that stops when a counter reaches 5
 # 3. Write an if-else to check if a number is even or odd
 
-number = 0 
 
 # 1. Use range function with start and stop 
 print("For loop counting:")
@@ -54,6 +53,25 @@ print("Is it even even?")
 if number % 2 == 0:
     print(f"{number} is even even!")
 else: 
-    print(f"{number} is a an odd ball.")
+    print(f"{number} is an odd ball.")
 print()
 print()
+
+# Vlad fun addition
+def is_even(number):
+    print("Is it even even?")
+    print()
+    print("I guess we'll find out..")
+    print()
+    print("Looks like..")
+    if number % 2 == 0:
+        print(f"{number} is even even!")
+    else: 
+        print(f"{number} is an odd ball.")
+
+is_even(47631)
+print()
+is_even(47632)
+
+
+# Grade 10/10
