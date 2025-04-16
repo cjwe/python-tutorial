@@ -15,12 +15,15 @@ print()
 import random
 
 # 2.
-fruits = ["grape", "banana", "cherry"]
+fruits = ["grape", "banana", "cherry", "passion fruit", "pineapple", "orange", "blueberry", "melon"]
 eatMe = random.choice(fruits)
 print(f"I would love to eat a {eatMe}.")
 print()
 print()
 
 # 3.
-feelinLucky = random.randint(1,100)
+feelinLucky = random.randint(2,12)
 print(f"I rolled a {feelinLucky}.")
+print()
+
+# Grade 9/10

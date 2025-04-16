@@ -1,6 +1,8 @@
 # === CLASSES ===
 
 class Animal:
+    """ This is an Animal. """
+    
     def __init__(self, name):
         self.name = name
 
