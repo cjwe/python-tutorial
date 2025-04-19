@@ -22,7 +22,7 @@ print()
 print("---")
 
 
-# # 2.
+# 2.
 print()
 print()
 
@@ -73,10 +73,29 @@ print()
 print("---")
 
 # 3. WIP - Not done yet :)
-# print()
+print()
 
-# class Animal:
-#     def __init__(self,name):
-#         self.name = name
-#     def intro(name):
-#         print("name")
+class Animal:
+    def __init__(self,name):
+        self.name = name
+
+    def intro(self):
+        print(self.name)
+
+class Lion(Animal):
+    def intro(self):
+        super().intro()
+
+class Zebra(Animal):
+    def intro(self):
+        super().intro()
+
+class Elephant(Animal):
+    def intro(self):
+        super().intro()
+
+Simba = Lion("lion")
+Dumbo = Elephant("elephant")
+Marty  = Zebra("zebra")
+
+print(f"We have so many animals at the zoo, three whole animals--if you can believe it! Simba, a {Simba.name}, Dumbo, an {Dumbo.name}, and Marty, a {Marty.name}.")
