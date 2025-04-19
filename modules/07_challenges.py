@@ -40,7 +40,7 @@ def multiply(x, y):
 
 def divide (x , y):
     if x == 0 or y == 0:
-        return "...actually, now I get why you needed my help. Because you can't actually divide by zero. :) That's pretty basic actually."
+        return "...actually, now I get why you needed my help. Because you can't actually divide by zero. :) That's pretty basic, actually."
     return x / y
 
 print("I get it, math is hard. If you give me two numbers can help you add, subtract, multiply or divide them.")
