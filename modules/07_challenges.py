@@ -43,7 +43,7 @@ def divide (x , y):
         return "...actually, now I get why you needed my help. Because you can't actually divide by zero. :) That's pretty basic, actually."
     return x / y
 
-print("I get it, math is hard. If you give me two numbers can help you add, subtract, multiply or divide them.")
+print("I get it, math is hard. If you give me two numbers I can help you add, subtract, multiply or divide them.")
 
 x = int(input("What is the first number? "))
 
@@ -99,3 +99,5 @@ Dumbo = Elephant("elephant")
 Marty  = Zebra("zebra")
 
 print(f"We have so many animals at the zoo, three whole animals--if you can believe it! Simba, a {Simba.name}, Dumbo, an {Dumbo.name}, and Marty, a {Marty.name}.")
+
+# Grade pending (changes needed..)

@@ -42,3 +42,5 @@ car = {
 print()
 print(f"My favorite car is a {car["year"]} {car["brand"]} {car["model"]}.") 
 print()
+
+# Grade 10/10

@@ -26,3 +26,5 @@ work_years = 1
 print(f"I have been working as a project manager for {work_years} year. My favorite color is {color}.")
 
 print()
+
+# Grade 10/10

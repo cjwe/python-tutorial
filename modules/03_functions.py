@@ -61,7 +61,7 @@ print(eatPasta(pastas))
 def count_elements(list_of_stuff):
     count = 0
     for stuff in list_of_stuff:
-        # count = count + 1 # Another option
+        # count = count + 1 # Another increment option
         count += 1
     
     return count
@@ -85,3 +85,5 @@ def last_item(lista):
 print()
 print(last_item(pastas))
 print()
+
+# Grade 10/10
