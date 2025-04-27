@@ -39,7 +39,7 @@ def multiply(x, y):
     return x * y
 
 def divide (x , y):
-    if x == 0 or y == 0:
+    if y == 0:
         return "...actually, now I get why you needed my help. Because you can't actually divide by zero. :) That's pretty basic, actually."
     return x / y
 
@@ -99,9 +99,13 @@ Dumbo = Elephant("elephant")
 Marty  = Zebra("zebra")
 
 print(f"We have so many animals at the zoo, three whole animals--if you can believe it! Simba, a {Simba.name}, Dumbo, an {Dumbo.name}, and Marty, a {Marty.name}.")
+<<<<<<< HEAD
 
 # Grade pending (changes needed..)
 
 # Potential changes:
 # - your division part has a smal hiccup (Hint: it's in an if statement)
 # - hmmm.. your specific animals aren't really all that different from a generic animal. Don't they each have something special they're good at? ( •͡˘ _•͡˘)ノð
+=======
+print()
+>>>>>>> 1dad658 (Removed x for divide by zero if statement)
