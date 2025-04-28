@@ -12,64 +12,64 @@
 # Pick one and build it! No pressure :)
 
 # 1. 
-# print()
-# print("Lets get a hoppin' and a shoppin'! Somebunny's hungry...")
-# print()
-# grocery_list = input("What's on your grocery list?\n")
-# print()
-# print(f"Delicious! What are you going to make with {grocery_list}? I prefer carrots myself.")
-# print()
-# print("---")
+print()
+print("Lets get a hoppin' and a shoppin'! Somebunny's hungry...")
+print()
+grocery_list = input("What's on your grocery list?\n")
+print()
+print(f"Delicious! What are you going to make with {grocery_list}? I prefer carrots myself.")
+print()
+print("---")
 
 
-# # 2.
-# print()
-# print()
+#2.
+print()
+print()
 
-# def answer():
-#     print("The answer to your super duper difficult question that you definitely couldn't do in your head is: ")
+def answer():
+    print("The answer to your super duper difficult question that you definitely couldn't do in your head is: ")
 
-# def add(x, y):
-#     return x + y
+def add(x, y):
+    return x + y
 
-# def subtract(x, y):
-#     return x - y
+def subtract(x, y):
+    return x - y
 
-# def multiply(x, y):
-#     return x * y
+def multiply(x, y):
+    return x * y
 
-# def divide (x , y):
-#     if y == 0:
-#         return "...actually, now I get why you needed my help. Because you can't actually divide by zero. :) That's pretty basic, actually."
-#     return x / y
+def divide (x , y):
+    if y == 0:
+        return "...actually, now I get why you needed my help. Because you can't actually divide by zero. :) That's pretty basic, actually."
+    return x / y
 
-# print("I get it, math is hard. If you give me two numbers I can help you add, subtract, multiply or divide them.")
+print("I get it, math is hard. If you give me two numbers I can help you add, subtract, multiply or divide them.")
 
-# x = int(input("What is the first number? "))
+x = int(input("What is the first number? "))
 
-# y = int(input("And the second number? "))
+y = int(input("And the second number? "))
 
-# request = input("Okay smarty pants, and what would you like to do with these numbers? Add, subtract, multiply, or divide them? ").lower()
+request = input("Okay smarty pants, and what would you like to do with these numbers? Add, subtract, multiply, or divide them? ").lower()
 
-# if request == "add":
-#     answer()
-#     print(add(x, y))
-# elif request == "subtract":
-#     answer()
-#     print(subtract(x, y))
-# elif request == "multiply":
-#     answer()
-#     print(multiply(x, y))
-# elif request == "subtract":
-#     answer()
-#     print(subtract(x, y))
-# elif request == "divide":
-#     answer()
-#     print(divide(x, y)) 
-# else:
-#     print(f"I don't really know what you're talking about. Try checking your spelling, like I said I can only add, subtact, multiply or divide.")
+if request == "add":
+    answer()
+    print(add(x, y))
+elif request == "subtract":
+    answer()
+    print(subtract(x, y))
+elif request == "multiply":
+    answer()
+    print(multiply(x, y))
+elif request == "subtract":
+    answer()
+    print(subtract(x, y))
+elif request == "divide":
+    answer()
+    print(divide(x, y)) 
+else:
+    print(f"I don't really know what you're talking about. Try checking your spelling, like I said I can only add, subtact, multiply or divide.")
 
-# print()
+print()
 # print("---")
 
 # 3. WIP - Not done yet :)
