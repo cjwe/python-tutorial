@@ -64,3 +64,11 @@ for student in students:
 # 1. Create a list of integers and annotate it
 # 2. Create a dictionary representing a book: title (str), pages (int), available (bool)
 # 3. Write a function that takes a list of numbers and returns their average as float
+
+# 1. Create "integers" list with int type, prints all integers in integers list.
+integers: list[int] = [1, 2, 3, 4, 5]
+
+for integer in integers: 
+    print("#", integer)
+
+#2. 
