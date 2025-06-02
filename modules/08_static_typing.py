@@ -71,4 +71,18 @@ integers: list[int] = [1, 2, 3, 4, 5]
 for integer in integers: 
     print("#", integer)
 
-#2. 
+#2. Define a dictionary named 'book'
+
+book: Dict[str, Any] = {
+    "title": "Pride and Prejudice",
+    "pages": 443,
+    "is_available": True
+}
+
+# Print a message that includes the title of the book from the dictionary
+print("Christa's Lil' Library:", book["title"])
+
+# 3. Creata a list of numbers, then return average as a float using sum and len 
+numbers: list[int] = [1, 57, 18]
+average: float = sum(numbers) / len(numbers)
+print(average)
